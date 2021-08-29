@@ -6,6 +6,7 @@ import LoginPage from "./pages/login/LoginPage";
 import RegisterPage from "./pages/register/RegisterPage";
 import ForgotPassword from "./pages/forgot_password/ForgotPassword";
 import Home from "./pages/home/Home";
+import Explore from "./pages/explore/Explore";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         </Route>
         <Route path="/home" exact>
           <Home />
+        </Route>
+        <Route path="/explore" exact>
+          <Explore />
         </Route>
         <Route path="*">
           <div>404</div>

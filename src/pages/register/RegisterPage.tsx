@@ -1,6 +1,6 @@
 import React, { ReactElement } from "react";
 import { Link } from "react-router-dom";
-import CardPageLayout from "src/components/CardPageLayout/CardPageLayout";
+import CardPageLayout from "src/components/cardPageLayout/CardPageLayout";
 import Layout from "src/components/layout/Layout";
 import "./RegisterPage.scss";
 
